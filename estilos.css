@@ -1,4 +1,54 @@
-.cabecalho{
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.cabecalho {
   background-color: purple;
   color: white;
+}
+
+.lista-tags {
+  padding: 8px;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.cabecalho-titulo {
+  text-align: center;
+  font-size: 42px;
+  width: 800px;
+}
+
+.cabecalho-descricao {
+  width: 800px;
+}
+
+.conteudo {
+  width: 800px;
+}
+
+.imagem-gatos {
+  width: 450px;
+}
+
+.fundo-azul {
+  background-color: lightblue;
 }
