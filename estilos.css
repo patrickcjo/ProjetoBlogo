@@ -12,13 +12,27 @@ p {
   margin: 0;
 }
 
+.app-bar {}
+
+.app-bar-logo {
+  width: 36px;
+  height: 36px;
+}
+
 .cabecalho {
   background-color: purple;
   color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.cabecalho-conteudo {
+  width: 800px;
+  margin: auto;
 }
 
 .lista-tags {
-  padding: 8px;
+  margin-bottom: 12px;
 }
 
 .tag {
@@ -32,23 +46,21 @@ p {
 }
 
 .cabecalho-titulo {
-  text-align: center;
   font-size: 42px;
-  width: 800px;
+  line-height: 1.2;
 }
 
 .cabecalho-descricao {
-  width: 800px;
 }
 
 .conteudo {
-  width: 800px;
+  width: 640px;
+  margin: auto;
 }
 
-.imagem-gatos {
-  width: 450px;
-}
-
-.fundo-azul {
-  background-color: lightblue;
+.conteudo-paragrafo {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 12px;
+  text-align: justify;
 }
